@@ -27,11 +27,11 @@ def main():
             number = m.group(1)
             new_number = number.zfill(num_of_digits)
             new_file_name = re.sub(r'(\d+)', new_number, file, count=1)
+            new_path = os.path.join(directory, new_file_name)
+            old_path = os.path.join(directory, file)
             if os.path.exists(new_path) and new_path != old_path:
                 print(f"Warning: '{new_file_name}' already exists. Exiting")
                 return
-            old_path = os.path.join(directory, file)
-            new_path = os.path.join(directory, new_file_name)
             os.rename(old_path, new_path)
             print(f"Renamed {file} to {new_file_name}")
 
