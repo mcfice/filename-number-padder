@@ -9,7 +9,10 @@ Good for alphabetical sorting
 Requirements: python3 (3.6+ probably)
 
 Instalation: 
-    Download script
-    Go to download directory
+
+    Download script 
+
+    Go to download directory 
+    
     Run "python3 {filename.py}"
 
