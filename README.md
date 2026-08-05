@@ -6,7 +6,7 @@ Good for alphabetical sorting
 
 !!! ->  Bad error handling. Very prone to errors. Use at your own risk 
 
-Requirements: python3 (3.6+ probably)
+Requirement: python3 (3.6+ probably)
 
 Instalation: 
 
