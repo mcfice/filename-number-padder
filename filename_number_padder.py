@@ -6,6 +6,8 @@ def main():
 
     question = input("Is directory a remote server? (y/n): ")
 
+    #for normal directory (non ftp)
+
     if question.lower() == 'n':
 
         directory = input("Enter the directory path where the files are located: ")
@@ -39,7 +41,10 @@ def main():
                 os.rename(old_path, new_path)
                 print(f"Renamed {file} to {new_file_name}")
 
-    if question.lower() == 'y':
+
+    #ftp server
+
+    else:
 
         host = input("Enter FTP host: ")
         port = int(input("Enter FTP port (e.g. 21): "))
