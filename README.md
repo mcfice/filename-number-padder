@@ -14,7 +14,8 @@ Instalation:
 
 - Go to download directory 
 
-- Run 
+- Run:
 
-    python3 {filename.py}
-
+```bash
+python3 {filename.py}
+```
